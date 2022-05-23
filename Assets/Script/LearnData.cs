@@ -9,7 +9,7 @@ using UnityEngine;
 public class LearnData : MonoBehaviour
 {
           //LearnData 類別成員區域
- //資料類型 欄位自訂名稱 結束符號
+ //資料類型 欄位自訂名稱 指定 值 結束符號
  //  int    自訂名稱    ;
     //欄位名稱 field
  //欄位語法
@@ -21,10 +21,13 @@ public class LearnData : MonoBehaviour
     //字串 保存文字資料 string
     //布林值 保存有、沒有資料 bool
 
-    int lv;
-    float exp;
-    string playName;
-    bool hasCureSkill;
+    int lv = 50;
+    //浮點數必須加上f 後綴，大小F皆可
+    float exp = 0.005f;
+    //字串必須使用雙引號
+    string playName = "玩家1";
+    //true 有，false沒有
+    bool hasCureSkill = true;
 
     // Clean code 無瑕的程式
 }
