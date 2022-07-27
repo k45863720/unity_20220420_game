@@ -4825,6 +4825,7 @@ GameObject:
   - component: {fileID: 5854792595313541936}
   - component: {fileID: 5854792595313541939}
   - component: {fileID: 5854792595313541938}
+  - component: {fileID: 5493152313291935217}
   m_Layer: 0
   m_Name: "\u5F48\u73E0"
   m_TagString: Untagged
@@ -4905,7 +4906,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5854792595313542093}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d8e94344dfa4b9646a47853c46c22529, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4931,3 +4932,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &5493152313291935217
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5854792595313542093}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
